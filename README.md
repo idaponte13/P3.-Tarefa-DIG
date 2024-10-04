@@ -12,11 +12,11 @@ Despois de executar o comando `dig danielcastelao.org`, veremos diferentes parte
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 
-**Question Section:**
+**Question Section:**  
 ;; QUESTION SECTION:
 ;danielcastelao.org.		IN	A
 
-**Answer Section:**
+**Answer Section:**  
 ;; ANSWER SECTION:
 danielcastelao.org.	900	IN	A	178.211.133.37
 
