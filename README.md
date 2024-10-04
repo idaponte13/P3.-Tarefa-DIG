@@ -20,6 +20,13 @@ Despois de executar o comando `dig danielcastelao.org`, veremos diferentes parte
 ;; ANSWER SECTION:
 danielcastelao.org.	900	IN	A	178.211.133.37
 
+**Statistics:**  
+;; Query time: 165 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
+;; WHEN: Fri Oct 04 21:04:13 CEST 2024
+;; MSG SIZE  rcvd: 63
+
+
 ***2.Realiza consutas dos seguintes nomes e identifica as diferencias: moodle.danielcastelao.org, www.danielcastelao.org***  
 
 ***3.Averigua o nome e IP dos servidores de DNS autoritativos de www.danielcastelao.org, por qué soen ser 2 servidores autoritativos?***
