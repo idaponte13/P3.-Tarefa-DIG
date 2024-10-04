@@ -1,10 +1,10 @@
 # P3.-Tarefa-DIG
 
-***1.Realiza unha consulta "dig danielcastelao.org" e identific cada parte da resposta (IN, CNAME, A, QUERY SECTION, ANSWER SECTION, AUTHORITY SECTION, etc)***
+***1.Realiza unha consulta "dig danielcastelao.org" e identifica cada parte da resposta (IN, CNAME, A, QUERY SECTION, ANSWER SECTION, AUTHORITY SECTION, etc)***
 
 Despois de executar o comando `dig danielcastelao.org`, veremos diferentes partes como o header, a seccion de consultas ou question section, a sección de respostas ou answer section e as sección de estadisticas ou stadistics. A continuación se mostrará o que aparece en cada una de ela.
 
-**Header:**
+**Header:**  
 ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> danielcastelao.org
 ;; global options: +cmd
 ;; Got answer:
