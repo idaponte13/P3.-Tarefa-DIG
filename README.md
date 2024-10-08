@@ -91,6 +91,13 @@ danielcastelao.org.	300	IN	SOA	ns1.hover.com. dnsmaster.hover.com. 1720467415 18
 
 ***7.Consulta a IP de www.elpais.com. Cánto tempo queda almaceado o rexistro de recurso no DNS local?, se preguntas ó DNS local por este recurso, qué observas no TTL do rexistro?***
 
+O comando a lanzar é o seguinte:`dig www.elpais.com`.  
+;; ANSWER SECTION:  
+www.elpais.com.         256     IN      CNAME   prisa-us-eu.map.fastly.net.  
+prisa-us-eu.map.fastly.net. 18  IN      A       199.232.194.133  
+prisa-us-eu.map.fastly.net. 18  IN      A       199.232.198.133  
+O tempo de vida é de 256.
+
 ***8.Busca o TTL de distintos nomes de dominio de servicios que escollas, a qué se poden deber as diferencias?***
 
 ***9.Determina o TTL máximo (original) dun nome de dominio.***
