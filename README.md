@@ -5,25 +5,24 @@
 Despois de executar o comando `dig danielcastelao.org`, veremos diferentes partes como o header, a seccion de consultas ou question section, a sección de respostas ou answer section e as sección de estadisticas ou stadistics. A continuación se mostrará o que aparece en cada una de ela.
 
 **Header:**  
-; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> danielcastelao.org
-;; global options: +cmd
-;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4566
+; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> danielcastelao.org  
+;; global options: +cmd  
+;; Got answer:  
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4566  
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
-
 **Question Section:**  
-;; QUESTION SECTION:
+;; QUESTION SECTION:  
 ;danielcastelao.org.		IN	A
 
 **Answer Section:**  
-;; ANSWER SECTION:
+;; ANSWER SECTION:    
 danielcastelao.org.	900	IN	A	178.211.133.37
 
 **Statistics:**  
-;; Query time: 165 msec
-;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
-;; WHEN: Fri Oct 04 21:04:13 CEST 2024
+;; Query time: 165 msec  
+;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)  
+;; WHEN: Fri Oct 04 21:04:13 CEST 2024  
 ;; MSG SIZE  rcvd: 63
 
 
