@@ -17,7 +17,12 @@ Despois de executar o comando `dig danielcastelao.org`, veremos diferentes parte
 
 **Answer Section:**  
 ;; ANSWER SECTION:    
-danielcastelao.org.	900	IN	A	178.211.133.37
+danielcastelao.org.	900	IN	A	178.211.133.37  
+**danielcastelao.org**: é o dominio solicitado  
+**900**: é o tempo de vida en segundos onde a resposta é valida ata que deba consultarse outra vez o DNS  
+**in**: é o tipo ou clase de rexistro, neste caso internet  
+**A**: é o tipo de rexistro, neste caso direción IPv4.  
+**178.211.133.37**: é a direción IPv4 do dominio.
 
 **Statistics:**  
 ;; Query time: 165 msec  
@@ -25,6 +30,7 @@ danielcastelao.org.	900	IN	A	178.211.133.37
 ;; WHEN: Fri Oct 04 21:04:13 CEST 2024  
 ;; MSG SIZE  rcvd: 63
 
+No meu caso non hai o apartado de AUTHORITY SECTION.  
 
 ***2.Realiza consutas dos seguintes nomes e identifica as diferencias: moodle.danielcastelao.org, www.danielcastelao.org***  
 
