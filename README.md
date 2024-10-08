@@ -81,6 +81,14 @@ Para cambialo podemos utilziar o comando `dig @8.8.8.8 www.danielcastelao.org`, 
 
 ***6.Obtén o rexistro SOA (Start of Authority) do dominio  moodle.danielcastelao.org preguntándolle ó servidor DNS de google e logo preoguntándollo directamente ó servidor primario do dominio danielcastelao.org.*** 
 
+Para consultar o rexistro SOA preguntandolle ó servidor DNS de Google debemos escribir o comando `dig @8.8.8.8 SOA moodle.danielcastelao.org`  
+;; AUTHORITY SECTION:  
+danielcastelao.org.	300	IN	SOA	ns1.hover.com. dnsmaster.hover.com. 1720467415 1800 900 604800 300  
+
+E preguntandolle directamente ó servidor primario do dominio danielcastelao.org o comando `dig @ns1.hover.com. SOA moodle.danielcastelao.org`.  
+;; AUTHORITY SECTION:  
+danielcastelao.org.	300	IN	SOA	ns1.hover.com. dnsmaster.hover.com. 1720467415 1800 900 604800 300
+
 ***7.Consulta a IP de www.elpais.com. Cánto tempo queda almaceado o rexistro de recurso no DNS local?, se preguntas ó DNS local por este recurso, qué observas no TTL do rexistro?***
 
 ***8.Busca o TTL de distintos nomes de dominio de servicios que escollas, a qué se poden deber as diferencias?***
