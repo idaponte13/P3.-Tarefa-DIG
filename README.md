@@ -74,8 +74,10 @@ Para realizar unha consulta inversa o parametro é `-x`. O comando reultante é 
 ;; ANSWER SECTION:
 68.163.206.130.in-addr.arpa. 7157 IN	PTR	s163m68.unavarra.es.
 
-
 ***5.A qué servidor DNS estás consultando? Cómo o podes cambiar sen tocar os ficheiros de configuración do sistema?***
+
+Para saber a que servidor DNS estou a consultar teño que realizar o comando `cat /etcresolv.conf`. Este comando accede a un arquivo de configuración onde se definen os servidores DNS que o sistema usa para resolver nomes do dominio.  
+Para cambialo podemos utilziar o comando `dig @8.8.8.8 www.danielcastelao.org`, o simbolo "@" indica o servidor DNS ao que se debe enviar a consulta, neste caso se está utilizando o servidor DNS público de Google.
 
 ***6.Obtén o rexistro SOA (Start of Authority) do dominio  moodle.danielcastelao.org preguntándolle ó servidor DNS de google e logo preoguntándollo directamente ó servidor primario do dominio danielcastelao.org.*** 
 
