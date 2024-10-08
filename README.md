@@ -61,6 +61,20 @@ Soen ser dous servidores por diferentes motivos entre eles:
 
 ***4.Realiza as consultas de nomes inversas: 130.206.164.68 e de outras dúas IPs que se che ocorran.***
 
+Para realizar unha consulta inversa o parametro é `-x`. O comando reultante é ```dig -x 130.206.164.68```.
+;; ANSWER SECTION:  
+68.164.206.130.in-addr.arpa. 7200 IN	PTR	pluto.tlm.unavarra.es.  
+68.164.206.130.in-addr.arpa. 7200 IN	PTR	s164m68.unavarra.es.
+
+```dig -x 130.206.165.68```  
+;; ANSWER SECTION:
+68.165.206.130.in-addr.arpa. 7200 IN	PTR	s165m68.unavarra.es.  
+
+```dig -x 130.206.163.68```    
+;; ANSWER SECTION:
+68.163.206.130.in-addr.arpa. 7157 IN	PTR	s163m68.unavarra.es.
+
+
 ***5.A qué servidor DNS estás consultando? Cómo o podes cambiar sen tocar os ficheiros de configuración do sistema?***
 
 ***6.Obtén o rexistro SOA (Start of Authority) do dominio  moodle.danielcastelao.org preguntándolle ó servidor DNS de google e logo preoguntándollo directamente ó servidor primario do dominio danielcastelao.org.*** 
