@@ -42,6 +42,23 @@ A diferencia é que no moodle aparece o tipo de rexistro "NS" que indica os serv
 
 ***3.Averigua o nome e IP dos servidores de DNS autoritativos de www.danielcastelao.org, por qué soen ser 2 servidores autoritativos?***
 
+Para averiguar o nome e IP dos servidores de DNS escribiremos dous comandos, o primeriro para averiguar o nome e o seguinte para obter a IP a través de esos nomes.  
+O primeiro é `dig ns danielcastelo.org`, con este podremos obter os nomes dos 2 servidores autoritativos.   
+;; ANSWER SECTION:  
+danielcastelao.org.	900	IN	NS	ns2.hover.com.  
+danielcastelao.org.	900	IN	NS	ns1.hover.com.  
+A continuación obteremos as suas IPs co comando `dig A (nome do servidor DNS)`.  
+;; ANSWER SECTION:
+ns2.hover.com.		6961	IN	A	64.98.148.13
+;; ANSWER SECTION:
+ns1.hover.com.		7065	IN	A	216.40.47.26  
+Este son os dous servidores no meu caso.
+
+Soen ser dous servidores por diferentes motivos entre eles:  
+1- Redundancia e disponibilidad  
+2-Balanceo de carga  
+3-Resiliencia ante antaques
+
 ***4.Realiza as consultas de nomes inversas: 130.206.164.68 e de outras dúas IPs que se che ocorran.***
 
 ***5.A qué servidor DNS estás consultando? Cómo o podes cambiar sen tocar os ficheiros de configuración do sistema?***
