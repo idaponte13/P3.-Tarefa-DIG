@@ -34,6 +34,12 @@ No meu caso non hai o apartado de AUTHORITY SECTION.
 
 ***2.Realiza consutas dos seguintes nomes e identifica as diferencias: moodle.danielcastelao.org, www.danielcastelao.org***  
 
+Ao realizar as consultas especificadas as diferencias vense reflexadas no apartado de AUTHORITY SECTION. Neste caso aparece o seguinte:  
+**;; AUTHORITY SECTION:**    
+**danielcastelao.org.	300	IN	SOA	ns1.hover.com. dnsmaster.hover.com. 1720467415 1800 900 604800 300**  
+
+A diferencia é que no moodle aparece o tipo de rexistro "NS" que indica os servidores autoritativos.
+
 ***3.Averigua o nome e IP dos servidores de DNS autoritativos de www.danielcastelao.org, por qué soen ser 2 servidores autoritativos?***
 
 ***4.Realiza as consultas de nomes inversas: 130.206.164.68 e de outras dúas IPs que se che ocorran.***
