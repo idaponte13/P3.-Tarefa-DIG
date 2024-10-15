@@ -105,6 +105,8 @@ As diferencias no TTl poden deberse á política de cache do servicio ou os serv
 
 ***9.Determina o TTL máximo (original) dun nome de dominio.***
 
+Fixemos unha consulta a `www.microsoft.com` e o TTL máximo desta foi 3600 segundos
+
 ***10.Averigua cántas máquinas con distintas IPs están detrás do dominio web www.google.es, sempre son as mesmas e na mesma orde? por qué?***
 
 ***11.Pregunta o mesmo a un server raiz (J.ROOTSERVERS.NET por exemplo) e comproba na resposta se o server acepta o modo recursivo***
