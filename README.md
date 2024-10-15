@@ -109,6 +109,8 @@ Fixemos unha consulta a `www.microsoft.com` e o TTL máximo desta foi 3600 segun
 
 ***10.Averigua cántas máquinas con distintas IPs están detrás do dominio web www.google.es, sempre son as mesmas e na mesma orde? por qué?***
 
+Para averiguar cantas IPs ten o dominio `www.google.es` escribiremos o comando `dig A www.google.es`, con isto podemos consultar as direccións do dirección de google.es.  
+
 ***11.Pregunta o mesmo a un server raiz (J.ROOTSERVERS.NET por exemplo) e comproba na resposta se o server acepta o modo recursivo***
 
 ***12.Se queremos ver tóda-las queries que fai o servidor de DNS, qué opción temos que usar? averigua a IP de www.timesonline.co.uk, especifica os pasos dados***
