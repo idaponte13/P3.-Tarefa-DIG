@@ -113,6 +113,9 @@ Para averiguar cantas IPs ten o dominio `www.google.es` escribiremos o comando `
 
 ***11.Pregunta o mesmo a un server raiz (J.ROOTSERVERS.NET por exemplo) e comproba na resposta se o server acepta o modo recursivo***
 
+Neste caso, co comando `dig A J.ROOTSERVERS.net` recibimos 2 direccións.  
+Posteriormente con esas duás poderemos facer a consulta de forma recursiva.
+
 ***12.Se queremos ver tóda-las queries que fai o servidor de DNS, qué opción temos que usar? averigua a IP de www.timesonline.co.uk, especifica os pasos dados***
 
 ***13.Usando a información dispoñible a traveso do DNS especifica a máquina (nome e IP) ou máquinas que actúan como servers de correo do dominio danielcastelao.org***
