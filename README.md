@@ -100,6 +100,9 @@ O tempo de vida é de 256.
 
 ***8.Busca o TTL de distintos nomes de dominio de servicios que escollas, a qué se poden deber as diferencias?***
 
+Para a proba disto se ha seleccionado google, facebook e amazon.  
+As diferencias no TTl poden deberse á política de cache do servicio ou os servizos con contenido dinámico soen ter TTl máis baixos para actualziarse con máis frecuencia.
+
 ***9.Determina o TTL máximo (original) dun nome de dominio.***
 
 ***10.Averigua cántas máquinas con distintas IPs están detrás do dominio web www.google.es, sempre son as mesmas e na mesma orde? por qué?***
